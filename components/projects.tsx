@@ -4,28 +4,45 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "E-commerce Dashboard",
-    description:
-      "A comprehensive analytics dashboard for online stores with real-time data visualization.",
+    title: "DMS - Distribution Management System",
+    description: "A comprehensive distribution management system for a company",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    tags: ["React", "Chart.js", "Node.js"],
+      "https://cdn-img.upanhlaylink.com/img/image_2025050554ffad15888316566f7812e5c0c5c389.jpg",
+    tags: ["ReactJS", "Typescript", "Chart.js", "Ant Design"],
   },
   {
-    title: "Task Management App",
-    description:
-      "A productivity app with drag-and-drop functionality and team collaboration features.",
+    title: "CRM - Customer Relationship Management",
+    description: "A customer relationship management system for a company",
     image:
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-    tags: ["Next.js", "Firebase", "DnD"],
+      "https://cdn-img.upanhlaylink.com/img/image_20250505399ca44edf5db3c6a6dd47abcff3ffd9.jpg",
+    tags: ["ReactJs", "Typescript", "Chart.js", "Ant Design"],
   },
   {
-    title: "Social Media Platform",
+    title: "PPF - Procurement Process Flow",
     description:
-      "A community platform with real-time updates, notifications, and content sharing.",
+      "A technique and structured method used to streamline an organization",
     image:
-      "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    tags: ["MERN Stack", "Socket.io", "JWT"],
+      "https://cdn-img.upanhlaylink.com/img/image_202505052a2879ab49f52f059821e003d6939490.jpg",
+    tags: ["ReactJs", "Typescript", "Ant Design"],
+  },
+  {
+    title: "Future DPTP",
+    description:
+      "A decentralized platform for trading standardized futures contracts.",
+    image:
+      "https://cdn-img.upanhlaylink.com/img/image_202505053518c934461f92bcd55cc15be0b79a14.jpg",
+    tags: [
+      "ReactJS",
+      "NextJS",
+      "Typescript",
+      "Socket.io",
+      "Chakra UI",
+      "Redux",
+      "Wagmi",
+      "Ethers",
+      "Web3",
+      "Blockchain",
+    ],
   },
 ];
 
@@ -53,7 +70,7 @@ export function Projects() {
                   alt={project.title}
                   width={500}
                   height={300}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
                   <h3 className="text-white text-xl font-bold mb-2">
