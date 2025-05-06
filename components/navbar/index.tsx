@@ -22,7 +22,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="fixed w-full bg-background/80 backdrop-blur-sm z-50 border-b">
+    <nav className="fixed w-full bg-background/80 backdrop-blur-sm z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold navbar-gradient-text">
           Duy Nguyen
